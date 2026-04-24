@@ -107,10 +107,10 @@ The script (`self_pruning_network.py`) is modularized into distinct parts for cl
 Running the standalone script automatically generates visualizations to analyze the network's behavior. 
 
 **Training Curves:** Shows the classification loss and validation accuracy across different sparsity penalties (λ).
-![Training Curves](results/training_curves.png)
+![Training Curves](training_curves.png)
 
 **Gate Distribution:** Highlights the bimodal nature of the learned gates. A successful run shows a massive spike near `0` (pruned weights) and a smaller cluster of active weights.
-![Gate Distribution](results/gate_distribution.png)
+![Gate Distribution](gate_distribution.png)
 
 ### Extended Dashboard (Interactive UI)
 *Note: The following images showcase the extended full-stack interactive dashboard built to monitor these experiments in real-time.*
