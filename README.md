@@ -116,10 +116,10 @@ Running the standalone script automatically generates visualizations to analyze 
 *Note: The following images showcase the extended full-stack interactive dashboard built to monitor these experiments in real-time.*
 
 **Dashboard Overview & Metrics:**
-![Training Dashboard — Metrics Overview](Dashboard-1.png) 
+![Training Dashboard — Metrics Overview](Dashboard_1.png) 
 
 **Layer-wise Sparsity Analysis:**
-![Training Dashboard — Layer-wise Sparsity & Gate Distribution](Dashboard-2.png) 
+![Training Dashboard — Layer-wise Sparsity & Gate Distribution](Dashboard_2.png) 
 
 ---
 
