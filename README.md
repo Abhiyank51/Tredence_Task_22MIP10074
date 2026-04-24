@@ -141,6 +141,22 @@ Running the standalone script automatically generates visualizations to analyze 
 
 Outputs will automatically be saved to the `./results/` directory, and the CIFAR-10 dataset will be downloaded to `./data/`. By default, the script tests λ values of `[0.01, 0.1, 0.5]` over 25 epochs.
 
+
+## 📦 Dataset
+
+This project uses the **CIFAR-10 dataset** (60,000 32×32 color images across 10 classes).
+
+⚠️ The dataset is **not included in the repository** due to size constraints.
+
+### ✅ Automatic Download
+
+No manual action is required.
+
+The dataset will be **automatically downloaded** when you run the script for the first time:
+
+```python
+torchvision.datasets.CIFAR10(..., download=True)
+```
 ---
 
 ## Insights & Trade-off Analysis 
